@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Exercício 4</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+        let imput = prompt("Insira o número: ");
+        let numero = parseInt(imput);
+        let resto = numero % 2;
+    
+
+        //document.write (resto);
+
+               
+        if (resto == 0 && numero < 0){
+            document.write("<br/><br/>O número inserido é par e negativo");
+        }
+        else if(resto == 0 && numero > 0){
+            document.write("<br/><br/>O número inserido é par e positivo");
+        }
+        
+        else if(resto < 0 && numero < 0){
+            document.write("<br/><br/>O número inserido é ímpar e negativo");
+        }
+        else if(resto >= 0 && numero >= 0){
+             document.write("<br/><br/>O número inserido é ímpar e positivo");
+        }
+        else{
+            document.write("<br/><br/>Erro na inserção de dados");
+        }
+    
+        
+</script>
+
+
+</html>

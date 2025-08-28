@@ -1,0 +1,49 @@
+<html>
+<head>
+        <title>Exercício 5</title>
+</head>
+
+<body>
+
+
+</body>
+        
+<script>
+
+        let imput1 = prompt("Insira o primeiro número: ");
+        let imput2 = prompt("Insira o segundo número: ");
+        let imput3 = prompt("Insira o terceiro número: ");
+
+        let n1 = parseInt(imput1);
+        let n2 = parseInt(imput2);
+        let n3 = parseInt(imput3);
+
+        if (n1 > n2 && n1 > n3 && n2 > n3){
+                document.write(n1, n2, n3);
+        }
+
+        if (n1 > n2 && n1 > n3 && n2 < n3){
+                document.write(n1, n3, n2);
+        }
+
+        if (n1 < n2 && n1 > n3 && n2 > n3){
+                document.write(n2, n1, n3);
+        }
+
+        if (n1 < n2 && n1 < n3 && n2 > n3){
+                document.write(n2, n3, n1);
+        }
+
+        if (n1 > n2 && n1 < n3 && n2 < n3){
+                document.write(n3, n1, n2);
+        }
+
+        if (n1 < n2 && n1 < n3 && n2 < n3){
+                document.write(n3, n2, n1);
+        }
+
+        
+</script>
+
+
+</html>
